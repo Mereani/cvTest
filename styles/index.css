@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-header { display: block; height: auto; text-align: center; border-bottom: 2px solid black;}
-header > h2 { font-size: 80px; display: inline-block; font-family: 'Bungee Shade', cursive;}
-header > img {height: 140px; border: 2px solid black; float: right; border-radius: 50%; z-index: 1; position: relative; top: 130; right: 100;}
+header {display: block; height: auto; text-align: center; border-bottom: 2px solid #B387DF;}
+header > h2 {font-size: 80px; display: inline-block; font-family: 'Bungee Shade', cursive;}
+header > img {height: 140px; border: 2px solid #B387DF; float: right; border-radius: 50%; z-index: 1; position: relative; top: 130; right: 100;}
 
-#flecheBottom {position: relative; display: flex; justify-content: center; z-index: 2;}
+#flecheBottom {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 50%; margin-right: 14%;}
+#flecheBottom > h6 {font-size: 20px;}
 #flecheBottom > a > img {height: 50px;}
 
-#container {display: flex; justify-content: space-between; height: 100%; width: 100%; align-items: center; background-color: blue;}
+#container {display: flex; justify-content: space-between; height: 100%; width: 100%; align-items: center;}
 #container > #menu {margin: 5%;}
 #container > #menu > h3 {font-size: 30px; margin-top: 9.5%;}
 
-#container > #informations {margin-left: 15%;} 
+#container > #informations {margin-left: 2%;} 
 #container > #informations > h3 {font-size: 20px;}
 
-#container > #fleche {display: flex; justify-content: flex-end;}
-#container > #fleche > a > img {height: 50px;}
+#container > #fleche {position: fixed; bottom: 0; right: 0;}
+#container > #fleche > a > img {height: 100px;}
+
+footer {display: flex; justify-content: center; position: fixed; bottom: 0;}
+footer > a > img {height: 100px;}
