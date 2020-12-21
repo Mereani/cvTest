@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-header {display: block; height: auto; text-align: center; border-bottom: 2px solid #B387DF;}
+header {display: block; height: auto; text-align: center; border-bottom: 2px solid #f2c74e;}
 header > h2 {font-size: 80px; display: inline-block; font-family: 'Bungee Shade', cursive;}
-header > img {height: 140px; border: 2px solid #B387DF; float: right; border-radius: 50%; z-index: 1; position: relative; top: 130; right: 100;}
+header > img {height: 140px; border: 2px solid #f2c74e; float: right; border-radius: 50%; z-index: 1; position: relative; top: 130; right: 100;}
 
 #flecheBottom {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 50%; margin-right: 14%;}
 #flecheBottom > h6 {font-size: 20px;}
