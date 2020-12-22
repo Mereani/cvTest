@@ -6,9 +6,8 @@
 
 
 $(document).ready(function(){
- $('section#sectionUn').hide();
- $('section#sectionDeux').hide();
- $('section#sectionTrois').hide();
+ $('section#sectionXpPro').hide();
+
 
 
 });
