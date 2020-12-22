@@ -1,4 +1,10 @@
-// js en cours 
-// lien aide pour le changement de div
-
-// : https://openclassrooms.com/fr/courses/1567926-un-site-web-dynamique-avec-jquery/1569341-manipuler-le-code-html-avec-jquery
+$('<div />').appendTo('body');
+var $lien = $('<a href="http://www.siteduzero.com/">Le Site du Zéro !</a>');
+$('<div />', {
+    id : "bloc", // identifiant de l'élément
+    css : { // style css de l'élément
+        color : "red",
+        fontSize : "100px"
+    }
+    // etc...
+});
