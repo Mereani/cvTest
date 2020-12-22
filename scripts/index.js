@@ -1,10 +1,14 @@
-$('<div />').appendTo('body');
-var $lien = $('<a href="http://www.siteduzero.com/">Le Site du Zéro !</a>');
-$('<div />', {
-    id : "bloc", // identifiant de l'élément
-    css : { // style css de l'élément
-        color : "red",
-        fontSize : "100px"
-    }
-    // etc...
+// $('<div />').appendTo('body');
+
+// $('div').html('<p>Nouveau <strong>code</strong> !</p>')
+
+// $('div').css('color','red').css('fontSize','50px') rajouter du text depuis jquery
+
+
+$(document).ready(function(){
+ $('section#sectionUn').hide();
+ $('section#sectionDeux').hide();
+ $('section#sectionTrois').hide();
+
+
 });
